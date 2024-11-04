@@ -1,13 +1,24 @@
 
 import './App.css'
+import Footer from './components/Footer/Footer'
+import NavBar from './components/NavBar/NavBar'
+import Sidebar from './components/Sidebar/Sidebar'
 
 function App() {
 
   return (
 
     <div className="App">
-      <h1>¡funciono!</h1>
+
+      <NavBar />
+
+      <Sidebar />
+
+      <Footer />
+
     </div>
+
+
 
   )
 }

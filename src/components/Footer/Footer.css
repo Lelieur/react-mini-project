@@ -1,0 +1,18 @@
+.Footer {
+    height: 40px;
+    width: 100%;
+    background-color: #2057E3;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer .logo {
+    height: 20px;
+    width: auto;
+    padding-right: 10px;
+}
