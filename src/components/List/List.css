@@ -1,0 +1,27 @@
+.Panel {
+    width: 100%;
+}
+
+.Panel h1 {
+    text-align: center;
+    color: #2b7fdf;
+}
+
+.Panel table {
+    width: 100%;
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.Panel table thead th {
+    border: 2px solid #00000026;
+}
+
+.Panel table tbody tr th {
+    border: 2px solid #2b7fdf;
+}
+
+.nameColum {
+    text-transform: uppercase;
+}

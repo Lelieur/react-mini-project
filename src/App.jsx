@@ -2,6 +2,7 @@ import './App.css'
 
 import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar/Navbar.jsx'
+import Panel from './components/List/List.jsx'
 import Sidebar from './components/Sidebar/Sidebar'
 
 
@@ -17,7 +18,8 @@ function App() {
 
         <Sidebar />
 
-        {/* PANEL DERECHO AQUÍ */}
+        <Panel />
+
 
       </div>
 
