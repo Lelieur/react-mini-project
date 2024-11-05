@@ -1,18 +1,11 @@
 .Footer {
-    height: 40px;
-    width: 100%;
-    background-color: #2057E3;
     position: fixed;
-    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #000;
     text-align: center;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.Footer .logo {
-    height: 20px;
-    width: auto;
-    padding-right: 10px;
+    font-size: .8em;
+    padding: 0;
+    bottom: 0;
+    left: 0;
+    background-color: white;
 }

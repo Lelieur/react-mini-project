@@ -1,25 +1,29 @@
-
 import './App.css'
+
 import Footer from './components/Footer/Footer'
-import NavBar from './components/NavBar/NavBar'
+import Navbar from './components/Navbar/Navbar.jsx'
 import Sidebar from './components/Sidebar/Sidebar'
+
 
 function App() {
 
   return (
 
-    <div className="App">
+    <div className='App'>
 
-      <NavBar />
+      <Navbar />
 
-      <Sidebar />
+      <div className="viewport-content">
+
+        <Sidebar />
+
+        {/* PANEL DERECHO AQUÍ */}
+
+      </div>
 
       <Footer />
 
     </div>
-
-
-
   )
 }
 

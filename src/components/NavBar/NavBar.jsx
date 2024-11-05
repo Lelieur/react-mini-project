@@ -1,18 +1,19 @@
-import "./../NavBar/NavBar.css"
+import reactLogo from './../../assets/react.svg'
+import navicon from './../../assets/navicon.png'
+import './Navbar.css'
 
-const NavBar = () => {
-
+const Navbar = () => {
     return (
-
-        <div className="NavBar">
-            <img className="menu" src="https://www.pngkey.com/png/full/200-2004305_boton-botones-de-menu-png.png" alt="Menú" />
-            <h1>Students</h1>
-            <img className="logo" src="https://testeandosoftware.com/wp-content/uploads/2013/12/ironhack.png" alt="Logo" />
+        <div className="Navbar">
+            <nav>
+                <div className='buttons'>
+                    <img src={navicon} alt="Navicon" className='navicon' />
+                    <h1>App_artments</h1>
+                </div>
+                <img src={reactLogo} alt="Logotipo" className='logo' />
+            </nav>
         </div>
-
     )
-
-
 }
 
-export default NavBar
+export default Navbar

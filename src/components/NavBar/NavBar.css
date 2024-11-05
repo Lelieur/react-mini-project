@@ -1,26 +1,30 @@
-.NavBar {
-    height: 60px;
-    background-color: #2057E3;
-    color: white;
+.Navbar {
+    border-bottom: 1px solid;
+    background-color: rgb(219, 233, 255);
+    padding: 5px;
+}
+
+.Navbar .buttons,
+.Navbar nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0px 30px;
 }
 
-.NavBar .menu {
-    height: 10px;
-    width: auto;
-    padding: 20px;
+.Navbar nav {
+    width: 100%;
 }
 
-.NavBar h1 {
-    font-size: 20px;
-    padding: 10px;
+.Navbar .navicon {
+    width: 40px
 }
 
-.NavBar .logo {
-    height: 50px;
-    width: auto;
-    right: 0px;
+.Navbar .logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px;
+}
+
+.Navbar h1 {
+    margin-left: 20px;
 }
