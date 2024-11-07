@@ -1,3 +1,4 @@
+import './AppRoutes.css'
 import { Route, Routes } from "react-router-dom"
 import DashboardPage from "../pages/DashboardPage/DashboardPage"
 import AboutPage from "../pages/AboutPage/AboutPage"
@@ -16,7 +17,9 @@ const AppRoutes = () => {
                 <Route path="/detalles/:apartmentId" element={<ApartmentDetailsPage />} />
                 <Route path="*" element={<NotFoundPage />} />
             </Routes>
+
         </div>
+
     )
 }
 

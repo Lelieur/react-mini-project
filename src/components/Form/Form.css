@@ -1,0 +1,32 @@
+.Form {
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    border: 2px solid #80808033;
+}
+
+.Form .itemForm {
+    padding-bottom: 10px;
+}
+
+.Form .itemForm input {
+    width: 100%;
+    background-color: rgb(219, 233, 255);
+    height: 30px;
+    border-radius: 6px;
+    border-color: #dbe9ff;
+}
+
+form {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Form .buttonForm {
+    display: grid;
+    align-items: end;
+}
+
+.Form .buttonForm input {
+    padding: 15px;
+}
