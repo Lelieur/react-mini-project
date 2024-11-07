@@ -1,0 +1,31 @@
+.ApartmentCard {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: flex-start;
+}
+
+.ApartmentCard img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    border-right: 1px solid #ccc;
+    padding-right: 20px;
+}
+
+.ApartmentCard h3 {
+    font-weight: 400;
+    margin: 0;
+}
+
+.ApartmentCard p {
+    font-weight: 400;
+    margin: 5px;
+    font-size: .8em;
+}
+
+.ApartmentCard button {
+    position: absolute;
+    right: 20px;
+    padding: 20px;
+}
